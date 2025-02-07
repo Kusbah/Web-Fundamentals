@@ -1,0 +1,28 @@
+.search-button{
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: aqua;
+    color: skyblue;
+}
+.plus-button{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: lightgreen;
+    background-color: lightgreen;
+    color: white;
+    font-size: 203x;
+}
+.create-account{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(73, 73, 247);
+    color: white;
+    box-shadow: 5px 5px black;
+
+}
