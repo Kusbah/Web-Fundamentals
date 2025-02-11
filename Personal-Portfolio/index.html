@@ -4,15 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <style>
-      th,
-      td {
-        border: solid 3px black;
-      }
-    </style>
   </head>
   <body>
-    <header><h1>Abdullah Kusbah</h1></header>
+    <header>
+      <h1>Abdullah Kusbah</h1>
+    </header>
     <img src="profile.png" width="150px" />
     <br />
     <img src="github.jpg" width="50px" /><a href="https://github.com/Kusbah">
@@ -27,7 +23,7 @@
     ><br />
     <h2>Technologies</h2>
     <br />
-    <table>
+    <table rules="all">
       <tr>
         <th>Fornt-End</th>
         <th>Python</th>
@@ -61,12 +57,14 @@
     <img src="Butterfly.png" width="50px" /> Butterfly App made in react -
     <a href="https://github.com/Kusbah/Butterfly_App">code i deployed</a>
     <h3>Contact Me</h3>
-    <label for="name">Name: <input type="text" /></label>
-    <label for="email">Email: <input type="text" /></label>
+    <label for="name">Name: </label>
+    <input name="name" type="text" />
+    <label for="email">Email: </label>
+    <input name="email" type="text" />
     <br /><br />
     <label>Message: </label>
     <textarea></textarea>
     <br />
-    <input type="button" value="Send message" />
+    <input type="button" value="Send message" name="send-message-button" />
   </body>
 </html>
