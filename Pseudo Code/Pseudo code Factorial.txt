@@ -1,0 +1,14 @@
+START
+Input Number
+Set Factorial = 1
+IF Number < 0
+    PRINT "Invaild input"
+ELSE
+    FOR i FROM 1 TO Number
+            factorial = factorial * i
+    END FOR
+END IF
+
+PRINT "The factorial of ", Number , "is: ", factorial
+
+
