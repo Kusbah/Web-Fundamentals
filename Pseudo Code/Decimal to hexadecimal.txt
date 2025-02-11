@@ -1,0 +1,24 @@
+1-) 25
+25/16 = 1 reminder 9
+1/16 = 0 reminder 1
+
+25 in hexadecimal = 19
+
+2-) 100
+100/16 = 6 reminder 4
+6/16 = 0 reminder 6
+
+100 in hexadecimal 64
+
+3-)255
+255/16 = 15 reminder 15
+15/16 = 0 reminder 15
+
+255 in hexadecimal FF
+
+4-) 1024
+1024/16 = 64 reminder 0
+64/16 = 4 reminder 0
+4/16 = 0 reminder 4
+
+1024 in hexadecimal 400
