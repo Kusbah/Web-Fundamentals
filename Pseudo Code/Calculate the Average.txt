@@ -1,0 +1,9 @@
+START
+Input Number1
+Input Number2
+Input Number3
+
+set SUM to Number1 + Number2 + Number3
+set average to SUM/3
+PRINT "The average is" + average
+END
