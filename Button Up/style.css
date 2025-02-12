@@ -24,5 +24,7 @@
     background-color: rgb(73, 73, 247);
     color: white;
     box-shadow: 5px 5px black;
-
+}
+.block-style{
+    display: block;
 }

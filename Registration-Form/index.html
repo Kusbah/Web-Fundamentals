@@ -10,46 +10,72 @@
       <h1>Registration Form</h1>
     </header>
     <section>
-      <label for="First name">First Name:* </label>
-      <input type="text" name="first-name" />
-      <br /><br />
-      <label for="Last name">Last Name:* </label>
-      <input type="text" name="last-name" />
-      <br /><br />
-      <label for="email">Email Address:* </label>
-      <input type="email" name="email" />
-      <br /><br />
-      <label for="password">Password:* </label>
-      <input type="password" name="password" />
-      <br /><br />
-      <label for="Confirm password">Confirm Password:*</label>
-      <input type="password" name="Confirm-password" />
-      <br /><br />
-      <label for="Birthday">Birthday:* </label>
-      <input type="date" name="Date" />
-      <br /><br />
-      <label for="Gender"> Gender Identity</label>
-      <br /><br />
-      <input type="radio" name="Gender" />Male
-      <input type="radio" name="Gender" />Female
-      <input type="radio" name="Gender" />Non-binary
-      <input type="radio" name="Gender" /> I prefer not to answer <br /><br />
-      <label for="descripiton">A short descripiton about myself:</label><br />
-      <textarea></textarea>
-      <br /><br />
-      <label for="Language">Favorite Language: </label>
-      <select name="Language">
-        <option>JaveSript</option>
-        <option value="jave">jave</option>
-        <option value="python">python</option>
-        <option value="c++">c++</option>
-      </select>
-      <br /><br />
-      <input type="checkbox" name="checkbox" /> Yes, I would like to receive
-      periodic email updates<br /><br />
+      <div>
+        <label for="firstName">First Name:* </label>
+        <input type="text" name="first-name" id="firstName" />
+      </div>
+      <br />
+      <div>
+        <label for="lastName">Last Name:* </label>
+        <input type="text" name="last-name" id="lastName" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email Address:* </label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password:* </label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <br />
+      <div>
+        <label for="confirmPassword">Confirm Password:*</label>
+        <input type="password" name="Confirm-password" id="confirmPassword" />
+      </div>
+      <br />
+      <div>
+        <label for="Birthday">Birthday:* </label>
+        <input type="date" name="Date" id="Birthday" />
+      </div>
+      <br />
+      <div>
+        <label for="Gender"> Gender Identity</label>
+        <br />
+        <input type="radio" name="Gender" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="femal" />
+        <label for="femal">Female</label>
+        <input type="radio" name="Gender" id="non-binary" />
+        <label for="non-binary">Non-binary</label>
+        <input type="radio" name="Gender" />
+        <label for="not-to-answer">I prefer not to answer</label>
+      </div>
+      <br />
+      <div>
+        <label for="descripiton">A short descripiton about myself:</label><br />
+        <textarea></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="Language">Favorite Language: </label>
+        <select name="Language">
+          <option value="javeSript">JaveSript</option>
+          <option value="jave">jave</option>
+          <option value="python">python</option>
+          <option value="c++">c++</option>
+        </select>
+      </div>
+      <br />
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <label for="checkbox"
+        >Yes, I would like to receive periodic email updates</label
+      >
+      <br />
       <input
         type="button"
-        value="Create Account "
+        value="Create Account"
         name="create-Account-button"
       />
       <br />

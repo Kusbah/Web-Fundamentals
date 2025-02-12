@@ -1,6 +1,7 @@
 .header{
     background-color: black;
     color: aqua;
+    padding: 5px;
 }
 span{
     color: white;
@@ -10,9 +11,11 @@ span{
     background-color: blueviolet;
     text-align: center;
     font-style: italic;
+    padding: 5px;
 }
 .header3{
     text-align: right;
     background-color: lightskyblue;
+    padding: 5px;
 }
 
