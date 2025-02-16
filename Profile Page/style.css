@@ -45,6 +45,21 @@
     font-family: cursive;
 }
 
+.main-page {
+    display: flex;
+}
+
+.col-1 {
+    display: flex;
+    flex: 2;
+}
+
+.col-2 {
+    display: flex;
+    flex: 1;
+}
+
+
 .user-card {
     position: absolute;
     top: 120px;
