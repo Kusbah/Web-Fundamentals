@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 970px;
+}
+
+.main {
+    background-color: rgb(36, 80, 117);
+    width: 970px;
+    height: 400px;
+}
+
+.image-search {
+    display: flex;
+}
+
+.image-search img {
+    width: 300px;
+    margin-left: 30px;
+}
+
+.image-search span {
+    margin-left: 440px;
+}
+
+.image-search .button-input {
+    background-color: #444;
+    width: 150px;
+}
+
+.image-search input {
+    margin-left: 430px;
+    background-color: #444;
+    width: 150px;
+}
+
+.image-search button {
+    width: 50px;
+    margin-left: 430px;
+}

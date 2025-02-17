@@ -50,12 +50,10 @@
 }
 
 .col-1 {
-    display: flex;
     flex: 2;
 }
 
 .col-2 {
-    display: flex;
     flex: 1;
 }
 
