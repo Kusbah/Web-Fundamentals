@@ -1,5 +1,10 @@
-.nav {
+.row {
     display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+
     background-color: rgb(13, 67, 74);
 }
 
@@ -13,10 +18,7 @@
 
 
 .nav-links {
-    display: flex;
     align-items: center;
-    margin-left: auto;
-    justify-content: space-between;
     gap: 10px;
 }
 

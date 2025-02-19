@@ -13,29 +13,21 @@ img {
     height: 200px;
 }
 
-.first-section {
-    background-color: aqua;
+.flex-images {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     padding: 10px;
     margin: 5px;
 }
 
-.second-section {
-    display: flex;
-    flex-direction: row;
+.black {
+    background-color: black;
+}
+
+.red {
     background-color: red;
-    padding: 10px;
-    justify-content: space-around;
-    margin: 5px;
 }
 
-.thered-section {
-    display: flex;
-    flex-direction: row;
-    background-color: brown;
-    padding: 10px;
-    justify-content: space-between;
-    margin: 5px;
+.blue {
+    background-color: blue;
 }
