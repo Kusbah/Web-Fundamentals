@@ -1,6 +1,0 @@
-START
-Input Length
-Input Width
-Set Area to Length * Width
-PRINT Area
-END
