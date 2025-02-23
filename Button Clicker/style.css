@@ -1,0 +1,82 @@
+.row {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 800px;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.search {
+    width: 250px;
+    color: #a0a0a0;
+    border: 1px solid black;
+
+}
+
+.login {
+    color: white;
+    background-color: #2d76e4;
+    padding: 10px 20px;
+    box-shadow: 3px 2px black;
+}
+
+.continer {
+    position: relative;
+    border: 3px solid black;
+    width: 400px;
+    height: 200px;
+    top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.first-half {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.first-half p {
+    text-align: center;
+    font-size: large;
+}
+
+.like-button {
+    padding: 5px 20px;
+    margin-left: 20px;
+    background-color: #fed966;
+    box-shadow: 3px 2px;
+}
+
+.second-helf {
+    flex: 2;
+    margin-top: 60px;
+    font-size: large;
+}
+
+.second-helf p {
+    text-align: center;
+    font-size: large;
+}
+
+.continer-aside {
+    border: 3px solid black;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 90px;
+    left: 450px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.definition-button {
+    padding: 10px 60px;
+    box-shadow: 3px 4px;
+    font-weight: bold;
+    background-color: #92c47d;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Clicker</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="row">
+        <div class="title">Dojonary</div>
+        <input class="search" type="text" value="Search" />
+        <button class="login" onclick="login(this)">Login</button>
+        <script src="./script.js"></script>
+      </div>
+    </nav>
+    <section>
+      <div class="continer">
+        <div class="first-half">
+          <p style="font-weight: bold">ninja</p>
+          <p style="font-style: italic">noun</p>
+          <p>Plural: ninjas</p>
+          <button class="like-button" onclick="alert('Ninja was liked')">
+            13 Likes
+          </button>
+        </div>
+        <div class="second-helf">
+          A practitioner skilled in the <a href="#">Japanese</a> art of
+          <a href="#">ninjutsu</a>
+        </div>
+      </div>
+      <div class="continer">
+        <div class="first-half">
+          <p style="font-weight: bold">ninja</p>
+          <p style="font-style: italic">noun</p>
+          <p>Plural: ninjas</p>
+          <button class="like-button" onclick="alert('Ninja was liked')">
+            37 Likes
+          </button>
+        </div>
+        <div class="second-helf">
+          A <a href="#">Programmer</a> who breaks down problems with
+          <a href="#">zen</a>-like focus
+        </div>
+      </div>
+    </section>
+    <aside>
+      <div class="continer-aside">
+        <p>Dojonary is defined by <span style="font-weight: bold">You</span></p>
+        <button class="definition-button" onclick="hideDefinition(this)">
+          Add Definition
+        </button>
+      </div>
+    </aside>
+    <script src="./script.js"></script>
+  </body>
+</html>
