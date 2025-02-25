@@ -2,23 +2,22 @@
     display: flex;
 }
 
-.col {
-    flex: 1;
+.coll {
     background-color: lightgreen;
     padding: 20px;
     margin: 10px;
+}
+
+.col {
+    flex: 1;
+
 }
 
 .col2 {
     flex: 2;
-    background-color: lightgreen;
-    padding: 20px;
-    margin: 10px;
+
 }
 
 .col3 {
     flex: 3;
-    background-color: lightgreen;
-    padding: 20px;
-    margin: 10px;
 }

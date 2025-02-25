@@ -3,47 +3,32 @@
     padding: 0;
 }
 
-.navbar {
+.row {
+    display: flex;
+    justify-content: space-evenly;
     background-color: rgb(33, 30, 30);
-    display: flex;
-    align-items: center;
-    padding: 5px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
 }
 
-.navbar ul {
-    display: flex;
-    gap: 20px;
-    margin-left: 50px;
-}
-
-.navbar li {
-    list-style: none;
-}
-
-.navbar a {
+.navbar .text {
     text-decoration: none;
     color: white;
     font-size: x-large;
     font-family: cursive;
 }
 
-.navbar h1 {
-    color: white;
-    font-family: cursive;
-    font-size: xxx-large;
-    margin-left: 200px;
-}
+.btn {
 
-.navbar .btn {
-    display: flex;
-    margin-left: 400px;
     color: white;
     background-color: skyblue;
-    padding: 5px 30px 5px;
-    font-size: xx-large;
+    padding: 2px 20px 2px;
+    font-size: x-large;
     border: 1px solid black;
     font-family: cursive;
 }
+
 
 .main-page {
     display: flex;
@@ -59,231 +44,114 @@
 
 
 .user-card {
-    position: absolute;
-    top: 120px;
-    left: 200px;
+    margin-top: 1rem;
+    margin-left: 3rem;
     border: 3px solid gray;
     width: 800px;
-    height: 500px
+    height: 450px
 }
 
 .user-card .background {
-    position: relative;
-    height: 150px;
+    height: 100px;
     background-color: lightblue;
 }
 
 .profile-image {
-    position: absolute;
-    top: 80px;
-    left: 40px;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
 }
 
 .user-card img {
     border-radius: 50%;
 }
 
+.marginLeft {
+    margin-left: 1rem;
+}
+
 .user-card .name {
-    position: absolute;
-    top: 230px;
-    left: 35px;
     font-size: xx-large;
     font-family: cursive;
     font-weight: bold;
 }
 
-.user-card .location img {
-    width: 25px;
-    position: absolute;
-    top: 280px;
-    left: 40px;
-}
-
-.user-card span {
-    position: absolute;
-    top: 280px;
-    left: 70px;
-    text-align: center;
-    font-size: xx-large;
-}
-
 .user-card .discrption {
-    position: absolute;
-    top: 330px;
-    left: 40px;
     font-size: x-large;
     width: 400px;
 }
 
-.user-card .edit-profile {
-    position: absolute;
-    top: 400px;
-    left: 40px;
+.user-card .image {
+    width: 25px;
 }
 
-.user-card .edit-profile img {
-    width: 30px;
-}
-
-.user-card .edit-profile a {
-    margin-left: 10px;
-    position: relative;
-    bottom: 8px;
-}
-
-.connection-req {
-    position: absolute;
-    border: 3px solid gray;
-    width: 300px;
-    height: 300px;
-    top: 120px;
-    left: 1100px;
-}
-
-.connection-req .header {
+.same-header {
     background-color: black;
     color: white;
-    text-align: center;
-    height: 50px;
-
+    padding: 15px;
 }
 
-.connection-req .header .number {
-    padding: 10px;
-    background-color: gray;
-    position: relative;
-    top: 15px;
-    border-radius: 50%;
-    font-size: larger;
-    margin-right: 10px;
+.same {
+    border: 3px solid gray;
+    width: 300px;
+    height: 370px;
+    margin-top: 1rem;
 }
 
-.connection-req .header .text {
-    position: relative;
-    top: 15px;
+.header-text {
     font-size: larger;
 }
 
-.connection-req .request {
-    position: relative;
-    top: 20px;
-}
-
-.connection-req .request img {
-    width: 50px;
-    border-radius: 50%;
+.request {
+    margin-top: 1rem;
 }
 
 .connection-req .request .circle {
-    position: relative;
     width: 40px;
-    left: 89px;
-    justify-content: space-between;
-
 }
 
 .connection-req .request .circle1 {
-    position: relative;
-    margin-right: 10px;
+    margin-left: 4rem;
 }
 
-.connection-req .request .name-1 {
-    position: relative;
-    bottom: 20px;
-    left: 10px;
-    font-size: large;
-}
-
-.your-connections {
-    position: absolute;
-    border: 3px solid gray;
-    width: 300px;
-    height: 400px;
-    top: 450px;
-    left: 1100px;
-}
-
-.your-connections .header {
-    background-color: black;
-    color: white;
-    text-align: center;
-    height: 50px;
-
-}
-
-.your-connections .header .number {
+.number {
     padding: 10px;
     background-color: gray;
-    position: relative;
-    top: 15px;
     border-radius: 50%;
     font-size: larger;
     margin-right: 10px;
 }
 
-.your-connections .header .text {
-    position: relative;
-    top: 15px;
-    font-size: larger;
-}
-
-.your-connections .request {
-    position: relative;
-    top: 20px;
-}
-
-.your-connections .request img {
+.user-image {
     width: 50px;
     border-radius: 50%;
+    margin-left: 1rem;
 }
 
-
-.your-connections .request .name-1 {
-    position: relative;
-    bottom: 20px;
-    left: 10px;
+.name-1 {
     font-size: large;
 }
 
 .your-connections .view-more {
     border-top: 3px solid gray;
-    margin-top: 45px;
-    padding: 5px;
     font-size: larger;
 }
 
 .education {
-    position: absolute;
-    top: 670px;
-    left: 200px;
-    border: 3px solid gray;
+    margin-top: 2rem;
+    margin-left: 3rem;
     width: 800px;
     height: 400px
 }
 
-.education .header {
-    background-color: black;
-    color: white;
-    padding: 20px;
-}
 
 .education span {
     font-size: larger;
     font-family: cursive;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 1rem;
 }
 
 .education .content .main {
-    margin-left: 30px;
-}
-
-.education .content .data {
-    margin-left: 30px;
-    color: gray;
-}
-
-.education .content .more {
-    margin-left: 30px;
-    margin-top: 1000px;
+    margin-left: 1rem;
 }

@@ -1,0 +1,49 @@
+body {
+    width: 1000px;
+    margin: auto;
+    font-family: cursive;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.profile {
+    border: 3px solid black;
+    height: 250px;
+    width: 190px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.like-container {
+    border: 3px solid black;
+    width: 500px;
+    height: 150px;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.like-container p {
+    font-size: large;
+    font-family: cursive;
+    margin-left: 20px;
+}
+
+.like-container .likeButton {
+    background-color: #ffd966;
+    box-shadow: 3px 2px 1px;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
