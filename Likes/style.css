@@ -11,20 +11,58 @@ nav {
     font-size: x-large;
 }
 
+h1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 3;
+}
+
+
+
 .profile {
     border: 3px solid black;
     height: 250px;
     width: 190px;
 }
 
-h1 {
-    text-align: center;
+.image {
+    width: 6rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
 }
+
+.add-avatar {
+    text-align: center;
+    font-size: x-large;
+}
+
+.Name {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
 
 .like-container {
     border: 3px solid black;
     width: 500px;
     height: 150px;
+    margin-bottom: 1rem;
+}
+
+.aw {
+    margin-top: 6rem;
 }
 
 .row-1 {
@@ -46,4 +84,8 @@ h1 {
     margin-top: 10px;
     font-size: x-large;
     font-weight: bold;
+}
+
+.parg {
+    width: 400px;
 }
