@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333333;
+    height: 50px;
+    padding: 15px;
+    display: flex;
+
+}
+
+.profile {
+    color: white;
+    font-size: xx-large;
+    margin-left: 6rem;
+    font-size: bold;
+}
+
+.row {
+    margin-left: auto;
+}
+
+.text {
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+    margin-left: rem;
+    margin-right: 1rem;
+}
+
+.btn {
+    margin-right: 4rem;
+    color: white;
+    background-color: skyblue;
+    padding: 2px 20px 2px;
+    font-size: x-large;
+    border: 1px solid black;
+    font-family: cursive;
+}
+
+.main {
+    display: flex;
+}
+
+.col-1 {
+    flex: 2;
+}
+
+.col-2 {
+    flex: 1;
+}
+
+.border {
+    border: 3px solid black;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    height: 400px;
+}
+
+.background {
+    background-color: #17a2b8;
+    height: 100px;
+}
+
+.user-image {
+    border-radius: 50%;
+}
+
+.image {
+    position: absolute;
+    top: 150px;
+    margin-left: 2rem;
+}
+
+.margin-left {
+
+    margin-left: 2rem;
+}
+
+.card-image {
+    width: 25px;
+    margin-left: 2rem;
+}
+
+.user-name {
+    margin-top: 5rem;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.local {
+    font-size: x-large;
+    margin-bottom: auto;
+    width: 400px;
+}
+
+.edit-profile {
+    margin-top: 2rem;
+}
+
+.header {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    font-size: large;
+}
+
+.content {
+    margin-left: 2rem;
+    font-size: large;
+}
+
+.conne-req {
+    border: 3px solid black;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 20rem;
+    height: 15rem;
+}
+
+.number {
+    background-color: #cccccc;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: black;
+    margin: 2rem;
+}
+
+.users {
+    display: flex;
+}
+
+.users-pic {
+    width: 3rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.circle {
+    width: 3rem;
+    margin-top: 1rem;
+}
+
+.users-names {
+    font-size: larger;
+    margin-top: 2rem;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.accept-circle {
+    margin-left: 5rem;
+}
+
+.close-circle {
+    margin-left: 1rem;
+}
+
+.your-Conn {
+    height: 23rem;
+}
+
+.view-more {
+    margin-top: 1rem;
+    border-top: 3px solid gray;
+    font-size: x-large;
+}
