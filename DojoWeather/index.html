@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="nav">
+      <div class="flex-container">
+        <h1 class="nav-title">DojoWeather</h1>
+        <ul class="nav-links">
+          <li onclick="alert('Loading weather report...')">
+            <a href="#">Burbank</a>
+          </li>
+          <li onclick="alert('Loading weather report...')">
+            <a href="#">Chicago</a>
+          </li>
+          <li onclick="alert('Loading weather report...')">
+            <a href="#">Dallas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- main -->
+    <div class="main">
+      <div class="row1">
+        <h2>San Jose</h2>
+        <div class="temp">
+          show temperature in
+          <select name="temp" id="temp" onchange="convertTemperature()">
+            <option value="celsius">°C</option>
+            <option value="fahrenheit ">°F</option>
+          </select>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="contan">
+          <h1>Today</h1>
+          <img
+            src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/3af/bd5/67a/some_rain.png"
+            alt="some_rain"
+          />
+          <div class="text">some rain</div>
+          <div class="row">
+            <span class="red degree">24°</span>
+            <span class="blue degree">18°</span>
+          </div>
+        </div>
+        <div class="contan">
+          <h1>Tomorrow</h1>
+          <img
+            src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/f02/2e8/6ba/some_sun.png"
+            alt="some_sun"
+          />
+          <div class="text">some sun</div>
+          <div class="row">
+            <span class="red degree">27°</span>
+            <span class="blue degree">19°</span>
+          </div>
+        </div>
+        <div class="contan">
+          <h1>Friday</h1>
+          <img
+            src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/c08/360/2bb/some_clouds.png"
+            alt="some_clouds"
+          />
+          <div class="text">some clouds</div>
+          <div class="row">
+            <span class="red degree">21°</span>
+            <span class="blue degree">16°</span>
+          </div>
+        </div>
+        <div class="contan">
+          <h1>Saturday</h1>
+          <img
+            src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/f02/2e8/6ba/some_sun.png"
+            alt="some_sun"
+          />
+          <div class="text">some sun</div>
+          <div class="row">
+            <span class="red degree">26°</span>
+            <span class="blue degree">21°</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---cookie policy notification-->
+    <div class="cookies">
+      <div class="row">
+        <img
+          src="https://files.cdn.thinkific.com/file_uploads/906206/attachments/6ef/c41/f01/cookie.png"
+          alt="cookie"
+        />
+        <div class="col2">
+          <h2>Stop! Cookie time</h2>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, illo
+          repellendus ad in dolore delectus unde quae nobis repudiandae quidem.
+          Vero voluptatem exercitationem laborum iure quis quidem impedit
+          architecto accusamus.
+        </div>
+        <div class="btn">
+          <button class="btn1" onclick="acceptCookies()">I Accept</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

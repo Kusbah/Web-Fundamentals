@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+}
+
+.header h1 {
+    padding-top: 2rem;
+    margin-left: 5rem;
+}
+
+.header img {
+    position: fixed;
+}
+
+.underheader {
+    background-color: #5082ab;
+    height: 4rem;
+}
+
+.underheader h1 {
+    margin-left: 1rem;
+    color: white;
+    padding-top: 1rem;
+}
+
+.main {
+    display: flex;
+}
+
+.col-1 {
+    flex: 1;
+
+}
+
+.col-3 {
+    flex: 6;
+
+}
+
+.col-1 p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.btn {
+    padding: 1rem;
+    margin-left: 1rem;
+    color: white;
+    height: 3rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1dvb;
+}
+
+.first-btn {
+    margin-top: 1rem;
+    width: 10.2rem;
+    background-color: #5082ab;
+}
+
+.sec-btn {
+    background-color: #f08101;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.ninja-img {
+    background-image: url(./images/ad_background.png);
+    width: 11rem;
+    padding-bottom: 5rem;
+}
