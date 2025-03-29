@@ -1,120 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Making Connections</title>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-  </head>
-  <body>
-    <nav>
-      <div class="navbar">
-        <div class="profile">Profile</div>
-        <div class="row">
-          <a href="#" class="text">Home</a>
-          <a href="#" class="text">My Profile</a>
-          <a href="#" class="text">Find Connections</a>
-          <button class="btn">Sing Out</button>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Making Connections</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="profile">Profile</div>
+      <div class="row">
+        <a href="#" class="text">Home</a>
+        <a href="#" class="text">My Profile</a>
+        <a href="#" class="text">Find Connections</a>
+        <button class="btn">Sing Out</button>
       </div>
-    </nav>
-    <div class="main">
-      <div class="col-1">
-        <div class="user-card border">
-          <div class="background"></div>
-          <div class="image">
-            <img class="user-image" src="./images/adrien-s.jpg" alt="adrien" />
-          </div>
-          <div class="user-name margin-left"><span class="username">Adrien S</span></div>
-          <div class="local tex">
-            <img
-              class="card-image"
-              src="./images/map-marker.png"
-              alt="map marker"
-            />Seattle
-          </div>
-          <div class="Description margin-left local">
-            Developer | Engineer | Problem Solver Master of shadows and the
-            Internet!
-          </div>
-          <div class="edit-profile" style="font-size: large">
-            <img class="card-image" src="./images/gear.png" alt="gear" /><a onclick="gear()" href="#"
-              >edit profile</a
-            >
-          </div>
-        </div>
-        <div class="Education border" style="height: 210px;">
-          <div class="header same-header">Eduction</div>
-          <div class="content">
-            <h1 class="main">Coding Dojo - Full Stack Bootcampm</h1>
-            <span class="data" style="color: gray">Dec 2019 - Mar 2020</span>
-            <br />
-            <span class="more"
-              >Triple black belt in Python, MERN, and C# ...</span
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="conne-req">
-          <div class="header same-header">
-            <span class="number countNumb">2</span>Connection Requests
-          </div>
-          <div class="users user2">
-            <img class="users-pic" src="./images/alayne-s.jpg" alt="alayne s" />
-            <span class="users-names"> Alayne S</span>
-            <img
-              onclick="accept1()"
-              class="accept-circle circle"
-              src="./images/accept-circle.png"
-              alt="accept-circle"
-            />
-            <img
-            onclick="declined1()"
-              class="close-circle circle"
-              src="./images/close-circle.png"
-              alt="close-circle"
-            />
-          </div>
-          <div class="users user1" >
-            <img class="users-pic" src="./images/anne-s.jpg" alt="anne-s" />
-            <span class="users-names"> Anne S</span>
-            <img
-              class="accept-circle circle"
-              onclick="accept()"
-              src="./images/accept-circle.png"
-              alt="accept-circle"
-            />
-            <img
-            onclick="declined()"
-              class="close-circle circle"
-              src="./images/close-circle.png"
-              alt="close-circle"
-            />
-          </div>
-        </div>
-        <div class="your-Conn conne-req">
-          <div class="header same-header">
-            <span class="number countnumbreq">418</span>Your Connection
-          </div>
-          <div class="users">
-            <img class="users-pic" src="./images/arry-s.jpg" alt="arry-s" />
-            <span class="users-names"> Arry S</span>
-      </div>
-      <div class="users">
-        <img class="users-pic" src="./images/jane-m.jpg" alt="jane-m" />
-        <span class="users-names"> Jane M</span>
-  </div>
-  <div class="users">
-    <img class="users-pic" src="./images/phil-s.jpg" alt="phil-s" />
-    <span class="users-names"> Phil S</span>
-</div>
-<div class="users">
-  <img class="users-pic" src="./images/todd-s.jpg" alt="todd-s" />
-  <span class="users-names"> Todd S</span>
-</div>
-<div class="view-more"><a style="margin-left: 1rem;" href="#">View more</a></div>
     </div>
-    <script src="./script.js"></script>
-  </body>
+  </nav>
+  <div class="main">
+    <div class="col-1">
+      <div class="user-card border">
+        <div class="background"></div>
+        <div class="image">
+          <img class="user-image" src="./images/adrien-s.jpg" alt="adrien" />
+        </div>
+        <div class="user-name margin-left"><span class="username">Adrien S</span></div>
+        <div class="local tex">
+          <img class="card-image" src="./images/map-marker.png" alt="map marker" />Seattle
+        </div>
+        <div class="Description margin-left local">
+          Developer | Engineer | Problem Solver Master of shadows and the
+          Internet!
+        </div>
+        <div class="edit-profile" style="font-size: large">
+          <img class="card-image" src="./images/gear.png" alt="gear" /><a onclick="gear()" href="#">edit profile</a>
+        </div>
+      </div>
+      <div class="Education border" style="height: 210px;">
+        <div class="header same-header">Eduction</div>
+        <div class="content">
+          <h1 class="main">Coding Dojo - Full Stack Bootcampm</h1>
+          <span class="data" style="color: gray">Dec 2019 - Mar 2020</span>
+          <br />
+          <span class="more">Triple black belt in Python, MERN, and C# ...</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="conne-req">
+        <div class="header same-header">
+          <span class="number countNumb">2</span>Connection Requests
+        </div>
+        <div class="users user1">
+          <img class="users-pic" src="./images/alayne-s.jpg" alt="alayne s" />
+          <span class="users-names"> Alayne S</span>
+          <img onclick="accept('user1')" class="accept-circle circle" src="./images/accept-circle.png"
+            alt="accept-circle" />
+          <img onclick="declined('user2')" class="close-circle circle" src="./images/close-circle.png"
+            alt="close-circle" />
+        </div>
+        <div class="users user2">
+          <img class="users-pic" src="./images/anne-s.jpg" alt="anne-s" />
+          <span class="users-names"> Anne S</span>
+          <img class="accept-circle circle" onclick="accept('user2')" src="./images/accept-circle.png"
+            alt="accept-circle" />
+          <img onclick="declined('user2')" class="close-circle circle" src="./images/close-circle.png"
+            alt="close-circle" />
+        </div>
+      </div>
+      <div class="your-Conn conne-req">
+        <div class="header same-header">
+          <span class="number countnumbreq">418</span>Your Connection
+        </div>
+        <div class="users">
+          <img class="users-pic" src="./images/arry-s.jpg" alt="arry-s" />
+          <span class="users-names"> Arry S</span>
+        </div>
+        <div class="users">
+          <img class="users-pic" src="./images/jane-m.jpg" alt="jane-m" />
+          <span class="users-names"> Jane M</span>
+        </div>
+        <div class="users">
+          <img class="users-pic" src="./images/phil-s.jpg" alt="phil-s" />
+          <span class="users-names"> Phil S</span>
+        </div>
+        <div class="users">
+          <img class="users-pic" src="./images/todd-s.jpg" alt="todd-s" />
+          <span class="users-names"> Todd S</span>
+        </div>
+        <div class="view-more"><a style="margin-left: 1rem;" href="#">View more</a></div>
+      </div>
+      <script src="./script.js"></script>
+</body>
+
 </html>
